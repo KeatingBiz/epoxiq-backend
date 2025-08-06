@@ -14,5 +14,4 @@ app.post('/render', (req, res) => {
   });
 });
 
-// ❗ Export the Express app — Vercel wraps it automatically
-module.exports = app;
+module.exports = app;    // Vercel wraps this automatically
